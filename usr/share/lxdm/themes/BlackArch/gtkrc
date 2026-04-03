@@ -17,21 +17,21 @@ style "back"
 style "time"
 {
 	fg[NORMAL]="#0d3264"
-	font_name="Terminus (TTF)"
+	font_name="Terminus"
 }
 
 style "prompt"
 {
 	fg[NORMAL]="#6298e0"
-	font_name="Terminus (TTF)"
+	font_name="Terminus"
 }
 
 # Normally this won't paint an invisible event box, but we did some hacks in greeter.c.
 style "bottom"
 {
-	font_name="Terminus (TTF)"
+	font_name="Terminus"
 	fg[NORMAL] = "#6298e0"
-  bg[NORMAL] = "#000000"
+    bg[NORMAL] = "#000000"
 }
 
 widget "lxdm" style "back"

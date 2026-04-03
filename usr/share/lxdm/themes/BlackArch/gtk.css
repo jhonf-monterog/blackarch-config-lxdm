@@ -1,5 +1,8 @@
 #lxdm {
-	background-image: url("blackarch.jpg")
+	background-image: url("blackarch.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #bottom_pane {
@@ -7,7 +10,8 @@
 }
 
 #time {
-	font: "Terminus (TTF)";
+	font: "Terminus";
+	font-size: 14px;
 	color: #0d3264;
 }
 
