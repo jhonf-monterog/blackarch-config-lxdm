@@ -7,8 +7,8 @@ echo "Running X session wrapper"
 if [ $# -eq 1 -a -n "$1" ]; then
 	LXSESSION=$1
 else
-# default session
-	LXSESSION=/usr/bin/startlxde
+  # default session
+	LXSESSION=/usr/bin/openbox-session
 fi
 
 # Load profile
